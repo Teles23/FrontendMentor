@@ -1,0 +1,45 @@
+* {
+  margin: 0 ;
+  padding: 0;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em auto 1em auto;
+}
+.content {
+  display: flex;
+}
+.descricao {
+  font-size: 15px;
+  width: 255px;
+  margin-bottom: 39px;
+}
+.new {
+  border-bottom: solid;
+  margin-bottom: 3em;
+}
+.menu ul {
+  height: 100%;
+}
+ul li {
+  list-style: none;
+  margin-right: 1.8em;
+}
+ul li a {
+  text-decoration-line: none;
+}
+#desktop {
+  width: 100%;
+}
+
+#noticias {
+  background-color: rgb(2, 3, 19);
+  color: antiquewhite;
+  padding: 2.5em 1em 0 1em;
+}
